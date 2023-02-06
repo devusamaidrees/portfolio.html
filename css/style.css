@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 140px;
+}
+header nav ul li{
+    display: inline-flex;
+    list-style: none;
+    padding: 0 20px;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+header ul li a:hover{
+    color: red;
+}
+.man
+{
+    margin-left: 190px;
+}
+.man img{
+    width: 70vw;
+    height: 85vh;
+    position: relative;
+}
+.container{
+    position: absolute; top: 40%;
+    font-size: x-large;
+    padding-left: 60px;
+}
+.container span{
+    color: red;
+}
+.container button{
+    margin: 35px;
+    padding: 15px;
+    background-color: black;
+    border-radius: 8px;
+}
+.container button a{
+    text-decoration: none;
+    color: white;
+}
+.container button:hover{
+    background-color:aqua;
+    color: black;
+}
